@@ -1,0 +1,4 @@
+aws cloudformation deploy \
+  --template-file secure-bucket.yml \
+  --stack-name my-secure-bucket-stack \
+  --capabilities CAPABILITY_NAMED_IAM
